@@ -1,0 +1,16 @@
+C:\dev\Extra\Web\DiscordBot\DiscordBot\bin\Debug\DiscordBot.exe.config
+C:\dev\Extra\Web\DiscordBot\DiscordBot\obj\Debug\DiscordBot.csprojResolveAssemblyReference.cache
+C:\dev\Extra\Web\DiscordBot\DiscordBot\bin\Debug\DiscordBot.exe
+C:\dev\Extra\Web\DiscordBot\DiscordBot\bin\Debug\DiscordBot.pdb
+C:\dev\Extra\Web\DiscordBot\DiscordBot\bin\Debug\DiscordSharp.dll
+C:\dev\Extra\Web\DiscordBot\DiscordBot\bin\Debug\NAudio.dll
+C:\dev\Extra\Web\DiscordBot\DiscordBot\bin\Debug\Newtonsoft.Json.dll
+C:\dev\Extra\Web\DiscordBot\DiscordBot\bin\Debug\websocket-sharp.dll
+C:\dev\Extra\Web\DiscordBot\DiscordBot\bin\Debug\WebSocket4Net.dll
+C:\dev\Extra\Web\DiscordBot\DiscordBot\bin\Debug\DiscordSharp.pdb
+C:\dev\Extra\Web\DiscordBot\DiscordBot\bin\Debug\DiscordSharp.xml
+C:\dev\Extra\Web\DiscordBot\DiscordBot\bin\Debug\NAudio.xml
+C:\dev\Extra\Web\DiscordBot\DiscordBot\bin\Debug\Newtonsoft.Json.xml
+C:\dev\Extra\Web\DiscordBot\DiscordBot\bin\Debug\websocket-sharp.xml
+C:\dev\Extra\Web\DiscordBot\DiscordBot\obj\Debug\DiscordBot.exe
+C:\dev\Extra\Web\DiscordBot\DiscordBot\obj\Debug\DiscordBot.pdb
