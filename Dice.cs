@@ -11,7 +11,7 @@ namespace DiscordBot
 	{
 		public static string SimpleDice(string input)
 		{
-			if (Regex.Match(input, "/roll/i").Success)
+			if (Regex.Match(input, "roll", RegexOptions.IgnoreCase).Success)
 			{
 				return "Dice will be rolled";
 			}

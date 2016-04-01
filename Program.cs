@@ -60,13 +60,15 @@ namespace DiscordSharp_Starter
             client.MessageReceived += (sender, e) => // Channel message has been received
 			{
 				Console.WriteLine(e.message_text);
-				Console.WriteLine("/(^[!;?.&%#][A-Za-z]{1,})/g");
-				if ((Regex.Match(e.message_text, "/([!;?.&%#@][A-Za-z]{1,})/igm").Success))
-				{
-					Console.WriteLine(e.message_text);
-					Dice.SimpleDice(e.message_text);
+				String commandPattern = @"(^[!;?.&%#][A-Za-z]{1,})";
+				String diceReturn;
 
-					if (e.message_text.Contains("help") || e.message_text.Contains("?"))
+				if (Regex.IsMatch(e.message_text, commandPattern))
+				{
+					diceReturn = Dice.SimpleDice(e.message_text);
+					if (diceReturn.Length > 0)
+						e.Channel.SendMessage(diceReturn);
+					else if (e.message_text.Contains("help") || e.message_text.Contains("?"))
 					{
 						e.Channel.SendMessage("Insert helpful information:");
 						// Because this is a public message, 
